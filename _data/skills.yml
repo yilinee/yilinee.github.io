@@ -1,0 +1,39 @@
+tool:
+  - item: Figma
+  - item: Adobe Creative Suite (AI, XD)
+  - item: Invision
+  - item: Sketch
+  - item: Zeplin
+  - item: Principle
+  - item: Balsamiq
+  - item: Marvel
+
+technique:
+  - item: Prototyping
+  - item: Wireframing
+  - item: A/B Testing
+  - item: Affinity Diagrams
+  - item: Personas
+  - item: User Journey Mapping
+  - item: User/Stakeholder Interviews
+  - item: Surveys & Questionnaires
+
+skill:
+  - item: Interaction Design
+  - item: User Testing
+  - item: Visual Design
+  - item: User Research & User 
+  - item: Project Management
+  - item: UX Writing & Microcopy
+  - item: Content Strategy & Information Archtecture
+  - item: Data Visualization
+
+language:
+  - item: Java
+  - item: Python
+  - item: HTML5
+  - item: CSS3
+  - item: Javascript
+  - item: R
+  - item: Arduino
+  - item: SQL

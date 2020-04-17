@@ -1,0 +1,46 @@
+# Site settings
+name: Catherine Zeng
+title: Catherine Zeng | UX Design and Product Design
+description: Delivering mindful experiences, products, and services to engage, motivate, and empower users
+url: https://yilinee.github.io/
+baseurl: ""
+email: yilinz213@gmail.com
+cover: https://yilinee.github.io/img/og.png
+logo: https://yilinee.github.io/img/emojis/technologist.png
+resume: https://yilinee.github.io/resume.pdf
+social:
+  - title: email
+    url: mailto:yilinz213@gmail.com
+  - title: twitter
+    url: https://twitter.com/yilinee
+  - title: instagram
+    url: https://instagram.com/yilinee
+  - title: codepen
+    url: http://codepen.io/yilinee
+  - title: github
+    url: https://github.com/yilinee
+  - title: linkedin
+    url: https://www.linkedin.com/in/yilinz8
+
+# Build settings
+markdown: kramdown
+
+exclude:
+  - "Gemfile"
+  - "Gemfile.lock"
+  - "*.gemspec"
+  - "README.md"
+  - "node_modules"
+  - "build"
+  - "gulpfile.js"
+  - "package.json"
+
+keep_files:
+  - "CNAME"
+  - ".git"
+  - ".gitignore"
+
+plugins_dir:
+  - jekyll-minifier
+  - jekyll-sitemap
+  - jekyll-octicons
