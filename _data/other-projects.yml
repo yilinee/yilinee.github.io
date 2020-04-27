@@ -8,3 +8,14 @@
     - thing: Player-centered Design
     - thing: Figma
     - thing: Invision
+
+- name: SkillItUp 
+  url: http://skillitup.ischool.uw.edu:4000
+  code: http://skillitup.ischool.uw.edu:4000
+  description: Advance gamification learning in Data Visualization and Machine Learning course at the University of Washington.
+  used:
+    - thing: Product Design
+    - thing: Web Design
+    - thing: Front-end Development
+    - thing: Information Architecture
+    - thing: User-centered Design
