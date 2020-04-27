@@ -1,10 +1,10 @@
-- name: example
-  url: https://github.com/yilinee/
-  code: https://github.com/yilinee/
-  description: Small React project created during an interview process to browse and search surf videos via the YouTube.
+- name: Block Studio
+  url: https://www.blockstud.io
+  code: https://www.blockstud.io
+  description: Integrate Player-Centered design to include gamified elements to the learning process. Worked on user on-boarding and loading animations
   used:
-    - thing: JavaScript
-    - thing: React
-    - thing: React Router
-    - thing: Axios
-    - thing: YouTube API
+    - thing: Web Design
+    - thing: Interaction Design
+    - thing: Player-centered Design
+    - thing: Figma
+    - thing: Invision
