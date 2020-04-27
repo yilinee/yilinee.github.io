@@ -31,6 +31,8 @@
     "url": "https://github.com/yilinee/yilinee.github.io/issues"
   },
   "dependencies": {
+    "lodash": "^4.17.15",
+    "lodash.template": "^4.5.0",
     "resolve-url": "^0.2.1",
     "urix": "^0.1.0"
   }
