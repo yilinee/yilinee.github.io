@@ -31,7 +31,7 @@
     "url": "https://github.com/yilinee/yilinee.github.io/issues"
   },
   "dependencies": {
-    "acorn": "^7.1.1",
+    "acorn": "^5.7.4",
     "kind-of": "^6.0.3",
     "lodash": "^4.17.15",
     "lodash.template": "^4.5.0",
