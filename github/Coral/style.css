@@ -1,0 +1,32 @@
+:root {
+    --background_color_one: #ffffff;
+    --background_color_two: #f2f4f6;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    background-color: var(--background_color_two);
+    font-family: 'Montserrat', 'Alef', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.wrapper {
+    width: 100%;
+    max-width: 90rem;
+    margin: 0 auto;
+    background-color: var(--background_color_one);
+    min-height: 10rem;
+    border-left: 1px solid #d6e3f0;
+    border-right: 1px solid #d6e3f0;
+    box-sizing: border-box;
+}
+
+.inner {
+    width: 100%;
+    max-width: 73.125rem;
+    margin: 0 auto;
+    height: inherit;
+}
