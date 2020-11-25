@@ -1,0 +1,294 @@
+/* css */
+
+*{
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0 auto;
+    padding: 0 auto;
+    scroll-behavior: smooth;
+}
+
+html {
+    background: #372286;
+}
+
+canvas {
+    position: fixed !important;
+ }
+
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+.dark {
+    color: #0D1227;
+}
+
+.mid {
+    color: #372286;
+}
+
+.light {
+    color: #7D57FF;
+}
+
+.white{
+    color: #FFFFFF;
+}
+
+h1 {
+    margin: 0 0 0 0;
+    font-family: Georgia;
+    font-weight: normal;
+    font-size: 72px;
+    line-height: 80px;
+}
+
+h2 {
+    margin: 0 0 48px 0;
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 64px;
+}
+
+h3 {
+    margin: 0 0 24px 0;
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+    text-decoration: underline;
+}
+
+p {
+    margin: 0 0 0 0;
+    font-family: Georgia;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 40px;
+}
+
+.pSmall {
+    margin: 0 0 0 0;
+    font-family: Georgia;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 48px;
+}
+
+a.link {
+    text-decoration: none;
+    outline: none;
+    color: #FFFFFF;
+}
+
+a.link:hover {
+    text-decoration: underline;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0 0 0 0;
+}
+
+section {
+    padding: 0 128px 72px 32px;
+}
+
+.intro {
+    padding: 32px 128px 80px 32px;
+}
+
+.flexWrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.column {
+    width: 50%;
+    margin: 0 0 48px 0;
+    padding: 0 56px 0 0;
+}
+
+.logo {
+    position: fixed;
+    top: 32px;
+    right: 32px;
+    z-index: 999;
+    transition: 0.4s cubic-bezier(0.59,-0.01, 0.11, 0.99);
+    width: 40px;
+}
+
+.logo:hover {
+    transform: scale(1.1) rotate(10deg);
+}
+
+.selector {
+    position: fixed;
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+    color: #FFFFFF;
+    transition: 0.3s ease;
+}
+  
+.one {
+    top: 96px;
+    right: 32px;
+}
+  
+.two {
+    top: 176px;
+    right: 20px;
+}
+  
+.three {
+    top: 256px;
+    right: 20px;
+}
+  
+.four {
+    top: 336px;
+    right: 20px;
+}
+  
+.active {
+    text-decoration: underline;
+    transform: rotate(45deg);
+}
+
+.underline {
+    height: 4px;
+    width: inherit;
+    margin: 0 0 24px 0;
+    background: #FFF;
+}
+
+.visual-aid {
+	display: flex;
+	align-items: center;
+	height: 32px;
+    background: #7D57FF;
+	width: 100%;
+	position: fixed;
+    bottom: 0;
+    transition: 0.2s ease;
+}
+
+.marquee {
+	overflow: hidden;
+}
+
+.marquee > * {
+	white-space: nowrap;
+	position: absolute;
+    animation: marquee 80s linear 0s infinite;
+    transition: 0.3s ease;
+}
+
+@keyframes marquee {
+	0% {
+		left: 100%;
+		transform: translateX(0%);
+	}
+	100% {
+		left: 0%;
+		transform: translateX(-100%);
+	}
+}
+
+.visual-aid:hover.marquee > * {
+	animation-play-state: paused;
+	color: #372286;
+}
+
+@media only screen and (max-width: 1050px) {
+    .flexWrapper {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .column {
+        width: 100%;
+        margin: 0 0 72px 0;
+        padding: 0 0 0 0;
+    }
+
+    .mobileBreak {
+        margin: 0 0 0 0;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    h1 {
+        margin: inherit;
+        font-family: Georgia;
+        font-size: 40px;
+        line-height: 48px;
+    }
+
+    h2 {
+        margin: 0 0 24px 0;
+        font-family: Poppins;
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    h3 {
+        margin: 0 0 16px 0;
+        font-family: Poppins;
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    p {
+        margin: 0 0 0 0;
+        font-family: Georgia;
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    .pSmall {
+        margin: 0 0 0 0;
+        font-size: 16px;
+        line-height: 48px;
+    }
+
+    section {
+        padding: 0px 20px 48px 20px;
+    }
+
+    .intro {
+        padding: 20px 20px 48px 20px;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .selector {
+        display: none;
+    }
+
+    .underline {
+        height: 3px;
+        margin: 0 0 10px 0;
+    }
+
+    .column {
+        width: 100%;
+        margin: 0 0 20px 0;
+        padding: 0 0 0 0;
+    }
+
+    .mobileBreak {
+        margin: 0 0 0 0;
+    }
+}

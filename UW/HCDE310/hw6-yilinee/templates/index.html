@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>{{title}}</title>
+		<link rel="stylesheet" type="text/css" href="../static/style.css" />
+		<link rel="shortcut icon" href="../static/favicon.ico">
+	</head>
+	<body>
+		<h1>{{title}}</h1>
+		<div class="row">
+			<p>By views:
+			{% for listitem in data[0:5] %}</p>
+			<div class="column">
+				<img src="{{listitem[0]}}" alt="{{listitem[1]}}"/>
+			</div>
+			{% endfor %}
+		</div>
+		<div class="row">
+			<p>By tags:
+			{% for listitem in data[5:10] %}</p>
+			<div class="column">
+				<img src="{{listitem[0]}}" alt="{{listitem[1]}}"/>
+			</div>
+			{% endfor %}
+		</div>
+		<div class="row">
+			<p>By comments:
+			{% for listitem in data[10:] %}</p>
+			<div class="column">
+				<img src="{{listitem[0]}}" alt="{{listitem[1]}}"/>
+			</div>
+			{% endfor %}
+		</div>
+	</body>
+</html>
